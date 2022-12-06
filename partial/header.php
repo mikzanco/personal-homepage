@@ -5,6 +5,7 @@ if ($_SERVER ['HTTP_HOST'] == 'localhost'){
 }else{
   $folder = '';
 };
+
 $userLogged = false;
 if(isset($_SESSION['userLogged'])){
   $userLogged = true;
